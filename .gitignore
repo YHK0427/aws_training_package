@@ -1,4 +1,3 @@
 append_ecs_role.json
 iam_policy.json
-imagedefinitions.json
 network.yml
