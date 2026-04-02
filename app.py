@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"Hello from ECS! Host: {socket.gethostname()}"
+    return f"Hello from ECS! VERSION2!!!!!!!!!!!! Host: {socket.gethostname()}"
 
 @app.route('/health')
 def health():

@@ -19,7 +19,7 @@ phases:
   post_build:
     commands:
       - docker push $REPOSITORY_URI:latest
-      - printf '[{"name":"app-container","imageUri":"%s"}]' $REPOSITORY_URI:latest > imagedefinitions.json
+      - printf '[{"name":"yhk-ecs-app","imageUri":"%s"}]' $REPOSITORY_URI:latest > imagedefinitions.json
 
 artifacts:
   files:
